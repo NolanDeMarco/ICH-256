@@ -3,7 +3,6 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #afe1fc;
-
 }
 
 .content{
@@ -14,8 +13,8 @@ body {
 
 h1, h2{
     font-size: 20px;
-    background-color: White;
     margin: 100px 200px 0px 200px;
+    background-color: moccasin;
     padding: 30px 20px 30px 20px;
     border: 2px solid black;
     border-radius: 20px;
@@ -36,7 +35,27 @@ span{
 
 h2{
     padding: 10px 20px 10px 20px;
+    border-radius: 10px;
     margin: 100px 300px 10px 300px;
-    visibility: hidden;
 }
 
+.image{
+    background-image: url("../happybday.jpg");
+    background-size: cover;
+}
+
+.hey0{
+    background-color: antiquewhite;
+}
+.hey1{
+    background-color: darkcyan;
+}
+.hey2{
+    background-color: darkgoldenrod;
+}
+.shadow{
+    display: none;
+}
+.none{
+    display: none;
+}
